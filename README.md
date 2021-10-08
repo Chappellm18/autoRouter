@@ -6,7 +6,7 @@ This program is used to auto genrate a vue router index file
 
 Run in the command line
 
-    python vueAR.py your-vue-folder
+    python vueAR.py your-full-vue-folder-path
 
 Before running the code in command line make sure your vue project structure is good.
 
