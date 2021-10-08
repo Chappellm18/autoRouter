@@ -15,7 +15,7 @@ Before running the code in command line make sure your vue project structure is 
             /views
             /router
 
-### Output
+## Output
 
 The code will output a fresh index.js in the router folder
 
