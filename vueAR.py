@@ -13,7 +13,7 @@ fileNames = []
 def updateRouter():
     global fileNames 
     # same process but first check to see if elemnts already exist
-    indexFile = open(vue_dir + '' + vue_router + '\\index.js','w')
+    #indexFile = open(vue_dir + '' + vue_router + '\\index.js','w')
     #indexFile.truncate(0)
     createRouter()
 
