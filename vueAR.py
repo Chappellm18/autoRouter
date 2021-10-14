@@ -36,7 +36,7 @@ def writeTo(fileNames):
         index = 0
         for name in fileNames:
             editName = Path(name).stem
-            routes[index] = "  { path: '" + editName + "', name: '" + editName + "', component: '" + editName + "' },"
+            routes[index] = "  { path: '" + editName + "', name: '" + editName + "', component: " + editName + " },"
             imports[index] = "import " + editName + " from '" + vue_views + "/" + editName + "';"
             index += 1
               
