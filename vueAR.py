@@ -5,8 +5,8 @@ from pathlib import Path
 from numpy import ndarray
 # set paths
 vue_dir = sys.argv[1]
-vue_views = '/src/views'
-vue_router = '/src/router'
+vue_views = '\\src\\views'
+vue_router = '\\src\\router'
 # globals
 fileNames = []
 
@@ -66,6 +66,10 @@ def main():
                 createRouter()        
         else:
             os.makedirs(vue_dir + '' + vue_views)
+            print('ERROR: no valid views folder')
+            print('Folder created: ' + vue_dir + '' + vue_views)
+            print('Restarting...')
+            main()
     else:
         print('ERROR: please use a vaild vue path')
 
